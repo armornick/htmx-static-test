@@ -1,0 +1,12 @@
+{
+  "name": "htmx-static",
+  "private": true,
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "author": "armornick",
+  "license": "BSD0",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
