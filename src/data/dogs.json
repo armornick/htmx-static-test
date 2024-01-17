@@ -1,54 +1,63 @@
 [
     {
         "name": "Pug",
+        "slug": "pug",
         "image": "pexels-charles-1851164.jpg",
         "src": "https://www.pexels.com/photo/portrait-photo-of-an-adult-black-pug-1851164/",
         "description": "The Pug is a charming and affectionate small dog breed known for its distinctive wrinkled face and curled tail. Playful and sociable, Pugs thrive on human companionship. They have a distinctive \"smushed\" face and a stocky build, making them instantly recognizable and endearing."
     },
     {
         "name": "Labrador Retriever",
+        "slug": "labrador-retriever",
         "image": "pexels-chevanon-photography-1108099.jpg",
         "src": "https://www.pexels.com/photo/two-yellow-labrador-retriever-puppies-1108099/",
         "description": "Labrador Retrievers are one of the most popular dog breeds known for their friendly and outgoing nature. They are highly intelligent, versatile, and make excellent family pets. Labs are renowned for their loyalty, enthusiasm, and love for both play and work, making them great companions for various activities."
     },
     {
         "name": "Siberian Husky",
+        "slug": "siberian-husky",
         "image": "pexels-lucas-andrade-4681107.jpg",
         "src": "https://www.pexels.com/photo/black-and-white-siberian-husky-4681107/",
         "description": "The Siberian Husky is a medium-sized working dog breed with striking blue eyes and a thick, double coat. Known for their endurance and strength, Huskies were originally bred as sled dogs in cold climates. They are friendly, outgoing, and have a strong independent streak, making them unique and captivating companions."
     },
     {
         "name": "Shih Tzu",
+        "slug": "shih-tzu",
         "image": "pexels-miguel-constantin-montes-2623968.jpg",
         "src": "https://www.pexels.com/photo/shih-tzu-sitting-on-the-floor-2623968/",
         "description": "The Shih Tzu is a small toy breed known for its elegant appearance and friendly disposition. With a luxurious, long, flowing coat and a distinctive pushed-in face, Shih Tzus are delightful companions. They thrive on human interaction and make excellent lap dogs, bringing joy and charm to their owners."
     },
     {
         "name": "Cavalier King Charles Spaniel",
+        "slug": "cavalier-king-charles-spaniel",
         "image": "pexels-steshka-willems-1390361.jpg",
         "src": "https://www.pexels.com/photo/shallow-focus-photography-of-a-cavalier-king-charles-spaniel-1390361/",
         "description": "The Cavalier King Charles Spaniel is a graceful and affectionate toy breed. With a silky coat, expressive eyes, and a friendly demeanor, they are well-suited for both families and individuals. Cavaliers are known for their loving nature and adapt well to various living environments."
     },
     {
         "name": "German Shepherd",
+        "slug": "german-shepherd",
         "image": "pexels-summer-stock-333083.jpg",
         "src": "https://www.pexels.com/photo/adult-german-shepherd-lying-on-ground-333083/",
         "description": "German Shepherds are versatile and intelligent working dogs known for their loyalty and protective instincts. With a strong and agile build, they excel in various roles, including police work, search and rescue, and as family guardians. German Shepherds are devoted to their owners and form strong bonds with their families."
     },
     {
         "name": "Pomeranian",
+        "slug": "pomeranian",
         "image": "pexels-tanika-3687770.jpg",
         "src": "https://www.pexels.com/photo/brown-pomeranian-puppy-on-grey-concrete-floor-3687770/",
         "description": "The Pomeranian is a small, lively toy breed with a thick double coat and a fox-like face. Despite their small size, Pomeranians have a confident and extroverted personality. They are energetic, alert, and often act fearlessly, making them a delightful and entertaining addition to any household."
     },
     {
         "name": "Shiba Inu",
+        "slug": "shiba-inu",
         "image": "pexels-valeria-boltneva-1805164.jpg",
         "src": "https://www.pexels.com/photo/brown-and-white-short-coated-puppy-1805164/",
         "description": "The Shiba Inu is a spirited and independent Japanese dog breed known for its fox-like appearance and bold personality. With a curly tail and a confident demeanor, Shiba Inus are both charming and sometimes aloof. They are clean, intelligent, and make loyal companions for those who appreciate their unique qualities."
     },
     {
         "name": "Schnauzer",
+        "slug": "schnauzer",
         "image": "pexels-sebastian-coman-travel-3655387.jpg",
         "src": "https://www.pexels.com/photo/photo-of-schnauzer-3655387/",
         "description": "Schnauzers are a versatile breed available in three sizes: Miniature, Standard, and Giant. Known for their distinctive beard and eyebrows, Schnauzers are intelligent, alert, and have a spirited personality. They are often praised for their loyalty, making them excellent family pets and watchdogs."

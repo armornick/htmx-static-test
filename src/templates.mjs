@@ -1,7 +1,9 @@
 
 export const ImageGridItem = (item) => {
     return `
-        <a href="#" class="group relative block bg-black">
+        <a href="#top" 
+            ${ item.markdownFound ? `hx-get="data/${item.slug}.html" hx-target="main"` : '' }
+            class="group relative block bg-black">
             <img 
                 src="/assets/img/${item.image}"
                 alt="Photo of ${item.name}"
@@ -28,6 +30,26 @@ export const ImageGrid = (items) => {
         <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
             <div class="grid gap-2 md:grid-cols-2 lg:grid-cols-3">
                 ${items.map(item => ImageGridItem(item)).join('')}
+            </div>
+        </div>
+    `;
+}
+
+export const Article = (item, html) => {
+    return `
+        <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+            <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+                <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+                    <img 
+                        src="/assets/img/${item.image}"
+                        alt="Photo of ${item.name}"
+                        class="absolute inset-0 w-full object-cover">
+                </div>
+                <div class="lg:py-16">
+                    <div class="prose">
+                        ${html}
+                    </div>
+                </div>
             </div>
         </div>
     `;
